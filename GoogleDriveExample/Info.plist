@@ -9,7 +9,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.631049844291-ahs06gmkbbdktvgbeos0quqc5rqv1q64</string>
+				<string>com.googleusercontent.apps.163174741024-b4skqchspf0o6ljpnsov5pbl4gl2c44e</string>
 			</array>
 		</dict>
 	</array>
@@ -30,5 +30,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>GoogleDriveAPI_KEY</key>
+	<string>AIzaSyBnQqpr8QW28RPXsL0JC2XIMr7cEds6S0Q</string>
+	<key>GIDClientID</key>
+	<string>163174741024-b4skqchspf0o6ljpnsov5pbl4gl2c44e.apps.googleusercontent.com</string>
 </dict>
 </plist>

@@ -5,17 +5,14 @@
 //  Created by Leo Ho on 2023/11/17.
 //
 
-import UIKit
-
-import FirebaseCore
 import GoogleSignIn
+import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, 
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure()
         return true
     }
     

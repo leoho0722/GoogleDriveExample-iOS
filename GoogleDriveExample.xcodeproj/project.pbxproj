@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D010591E2B29F0CE0051F8FA /* AppDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D010591D2B29F0CE0051F8FA /* AppDefine.swift */; };
+		D01059222B29FF730051F8FA /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = D01059212B29FF730051F8FA /* Test.png */; };
 		D06354AF2B07B432000C4E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06354AE2B07B432000C4E2F /* AppDelegate.swift */; };
 		D06354B12B07B432000C4E2F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06354B02B07B432000C4E2F /* SceneDelegate.swift */; };
 		D06354B82B07B434000C4E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06354B72B07B434000C4E2F /* Assets.xcassets */; };
@@ -20,15 +22,8 @@
 		D06354D72B07B848000C4E2F /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */ = {isa = PBXBuildFile; productRef = D06354D62B07B848000C4E2F /* GoogleAPIClientForREST_AIPlatformNotebooks */; };
 		D06354D92B07B848000C4E2F /* GoogleAPIClientForREST_APIGateway in Frameworks */ = {isa = PBXBuildFile; productRef = D06354D82B07B848000C4E2F /* GoogleAPIClientForREST_APIGateway */; };
 		D06354DB2B07B848000C4E2F /* GoogleAPIClientForREST_AbusiveExperienceReport in Frameworks */ = {isa = PBXBuildFile; productRef = D06354DA2B07B848000C4E2F /* GoogleAPIClientForREST_AbusiveExperienceReport */; };
-		D06354DE2B07BBDC000C4E2F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D06354DD2B07BBDC000C4E2F /* FirebaseAnalytics */; };
-		D06354E02B07BBDC000C4E2F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = D06354DF2B07BBDC000C4E2F /* FirebaseAnalyticsOnDeviceConversion */; };
-		D06354E22B07BBDC000C4E2F /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D06354E12B07BBDC000C4E2F /* FirebaseAnalyticsSwift */; };
-		D06354E42B07BBDC000C4E2F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = D06354E32B07BBDC000C4E2F /* FirebaseAnalyticsWithoutAdIdSupport */; };
-		D06354E62B07BBDC000C4E2F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = D06354E52B07BBDC000C4E2F /* FirebaseAppCheck */; };
-		D06354E92B07BE05000C4E2F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D06354E82B07BE05000C4E2F /* FirebaseAuth */; };
 		D06354EB2B07BE22000C4E2F /* GoogleAPIClientForREST_Drive in Frameworks */ = {isa = PBXBuildFile; productRef = D06354EA2B07BE22000C4E2F /* GoogleAPIClientForREST_Drive */; };
 		D06354EE2B07C0A2000C4E2F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06354ED2B07C0A2000C4E2F /* Alert.swift */; };
-		D06354F02B07C197000C4E2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D06354EF2B07C197000C4E2F /* GoogleService-Info.plist */; };
 		D06354F22B07C34A000C4E2F /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06354F12B07C34A000C4E2F /* UserPreferences.swift */; };
 		D06354F62B07CC14000C4E2F /* GoogleDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06354F42B07CC14000C4E2F /* GoogleDriveViewController.swift */; };
 		D06354F72B07CC14000C4E2F /* GoogleDriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D06354F52B07CC14000C4E2F /* GoogleDriveViewController.xib */; };
@@ -39,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D010591D2B29F0CE0051F8FA /* AppDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefine.swift; sourceTree = "<group>"; };
+		D01059212B29FF730051F8FA /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Test.png; sourceTree = "<group>"; };
 		D06354AB2B07B432000C4E2F /* GoogleDriveExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleDriveExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06354AE2B07B432000C4E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D06354B02B07B432000C4E2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +45,6 @@
 		D06354C82B07B4A0000C4E2F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D06354C92B07B4A0000C4E2F /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		D06354ED2B07C0A2000C4E2F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
-		D06354EF2B07C197000C4E2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D06354F12B07C34A000C4E2F /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
 		D06354F42B07CC14000C4E2F /* GoogleDriveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveViewController.swift; sourceTree = "<group>"; };
 		D06354F52B07CC14000C4E2F /* GoogleDriveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleDriveViewController.xib; sourceTree = "<group>"; };
@@ -66,15 +62,9 @@
 				D06354EB2B07BE22000C4E2F /* GoogleAPIClientForREST_Drive in Frameworks */,
 				D06354DB2B07B848000C4E2F /* GoogleAPIClientForREST_AbusiveExperienceReport in Frameworks */,
 				D06354CE2B07B5D1000C4E2F /* GoogleSignIn in Frameworks */,
-				D06354DE2B07BBDC000C4E2F /* FirebaseAnalytics in Frameworks */,
 				D06354D92B07B848000C4E2F /* GoogleAPIClientForREST_APIGateway in Frameworks */,
-				D06354E62B07BBDC000C4E2F /* FirebaseAppCheck in Frameworks */,
-				D06354E42B07BBDC000C4E2F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
-				D06354E22B07BBDC000C4E2F /* FirebaseAnalyticsSwift in Frameworks */,
-				D06354E02B07BBDC000C4E2F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				D06354D32B07B848000C4E2F /* GoogleAPIClientForRESTCore in Frameworks */,
 				D06354D72B07B848000C4E2F /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */,
-				D06354E92B07BE05000C4E2F /* FirebaseAuth in Frameworks */,
 				D06354D02B07B5D1000C4E2F /* GoogleSignInSwift in Frameworks */,
 				D06354D52B07B848000C4E2F /* GoogleAPIClientForREST_ACMEDNS in Frameworks */,
 			);
@@ -103,11 +93,11 @@
 		D06354AD2B07B432000C4E2F /* GoogleDriveExample */ = {
 			isa = PBXGroup;
 			children = (
+				D01059212B29FF730051F8FA /* Test.png */,
 				D06354AE2B07B432000C4E2F /* AppDelegate.swift */,
 				D06354B02B07B432000C4E2F /* SceneDelegate.swift */,
 				D06354B92B07B434000C4E2F /* LaunchScreen.storyboard */,
 				D06354BC2B07B434000C4E2F /* Info.plist */,
-				D06354EF2B07C197000C4E2F /* GoogleService-Info.plist */,
 				D06354EC2B07C091000C4E2F /* Utilities */,
 				D06354C62B07B47D000C4E2F /* Managers */,
 				D06354C52B07B475000C4E2F /* Models */,
@@ -146,6 +136,7 @@
 		D06354C52B07B475000C4E2F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D010591D2B29F0CE0051F8FA /* AppDefine.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,12 +217,6 @@
 				D06354D62B07B848000C4E2F /* GoogleAPIClientForREST_AIPlatformNotebooks */,
 				D06354D82B07B848000C4E2F /* GoogleAPIClientForREST_APIGateway */,
 				D06354DA2B07B848000C4E2F /* GoogleAPIClientForREST_AbusiveExperienceReport */,
-				D06354DD2B07BBDC000C4E2F /* FirebaseAnalytics */,
-				D06354DF2B07BBDC000C4E2F /* FirebaseAnalyticsOnDeviceConversion */,
-				D06354E12B07BBDC000C4E2F /* FirebaseAnalyticsSwift */,
-				D06354E32B07BBDC000C4E2F /* FirebaseAnalyticsWithoutAdIdSupport */,
-				D06354E52B07BBDC000C4E2F /* FirebaseAppCheck */,
-				D06354E82B07BE05000C4E2F /* FirebaseAuth */,
 				D06354EA2B07BE22000C4E2F /* GoogleAPIClientForREST_Drive */,
 			);
 			productName = GoogleDriveExample;
@@ -265,7 +250,6 @@
 			packageReferences = (
 				D06354CC2B07B5D1000C4E2F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				D06354D12B07B848000C4E2F /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
-				D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = D06354AC2B07B432000C4E2F /* Products */;
 			projectDirPath = "";
@@ -282,8 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D06354BB2B07B434000C4E2F /* LaunchScreen.storyboard in Resources */,
-				D06354F02B07C197000C4E2F /* GoogleService-Info.plist in Resources */,
 				D06354F72B07CC14000C4E2F /* GoogleDriveViewController.xib in Resources */,
+				D01059222B29FF730051F8FA /* Test.png in Resources */,
 				D06354B82B07B434000C4E2F /* Assets.xcassets in Resources */,
 				D06354CB2B07B4A0000C4E2F /* LoginViewController.xib in Resources */,
 			);
@@ -303,6 +287,7 @@
 				D06354AF2B07B432000C4E2F /* AppDelegate.swift in Sources */,
 				D06355002B07D9D5000C4E2F /* GTLRDriveService+Extensions.swift in Sources */,
 				D06354FD2B07D0ED000C4E2F /* DriveManager.swift in Sources */,
+				D010591E2B29F0CE0051F8FA /* AppDefine.swift in Sources */,
 				D06354FB2B07CFA3000C4E2F /* BaseViewController.swift in Sources */,
 				D06354EE2B07C0A2000C4E2F /* Alert.swift in Sources */,
 				D06354B12B07B432000C4E2F /* SceneDelegate.swift in Sources */,
@@ -534,14 +519,6 @@
 				kind = branch;
 			};
 		};
-		D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.18.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -579,36 +556,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D06354D12B07B848000C4E2F /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
 			productName = GoogleAPIClientForREST_AbusiveExperienceReport;
-		};
-		D06354DD2B07BBDC000C4E2F /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		D06354DF2B07BBDC000C4E2F /* FirebaseAnalyticsOnDeviceConversion */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsOnDeviceConversion;
-		};
-		D06354E12B07BBDC000C4E2F /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		D06354E32B07BBDC000C4E2F /* FirebaseAnalyticsWithoutAdIdSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsWithoutAdIdSupport;
-		};
-		D06354E52B07BBDC000C4E2F /* FirebaseAppCheck */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAppCheck;
-		};
-		D06354E82B07BE05000C4E2F /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D06354DC2B07BBDC000C4E2F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
 		};
 		D06354EA2B07BE22000C4E2F /* GoogleAPIClientForREST_Drive */ = {
 			isa = XCSwiftPackageProductDependency;

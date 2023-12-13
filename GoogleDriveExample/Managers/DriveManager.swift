@@ -15,6 +15,17 @@ final class DriveManager: NSObject {
     
     private let service = GTLRDriveService()
     
+    private override init() {
+        guard !AppDefine.googleDriveApiKey.isEmpty else {
+            fatalError("Google Drive API Key is empty string")
+        }
+        guard !AppDefine.bundleID.isEmpty else {
+            fatalError("Bundle ID is empty string")
+        }
+        service.apiKey = AppDefine.googleDriveApiKey
+        service.apiKeyRestrictionBundleID = AppDefine.bundleID
+    }
+    
     func upload(folderName: String,
                 filePath: String,
                 mimeType: String,

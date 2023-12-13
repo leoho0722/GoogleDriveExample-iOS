@@ -27,7 +27,6 @@ class LoginViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        AuthManager.shared.authStateHandleListener()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -40,7 +39,6 @@ class LoginViewController: BaseViewController {
     
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        AuthManager.shared.removeAuthStateHandleListener()
     }
     
     // MARK: - UI Settings

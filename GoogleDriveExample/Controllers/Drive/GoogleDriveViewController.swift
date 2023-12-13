@@ -53,20 +53,26 @@ class GoogleDriveViewController: BaseViewController {
     }
     
     fileprivate func setupUIBarButtonItem() {
-        let plus = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(uploadFile(sender:)))
+        let plus = UIBarButtonItem(barButtonSystemItem: .add, 
+                                   target: self,
+                                   action: #selector(uploadFile(sender:)))
         self.navigationItem.rightBarButtonItem = plus
     }
     
     // MARK: - Function
     
-    
+
     
     // MARK: - IBAction
     
     @objc private func uploadFile(sender: UIBarButtonItem) {
-        if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
-            let path = dir.appending(path: "Test.png").path()
-            DriveManager.shared.upload(folderName: "/", filePath: path, mimeType: "image/png") { result in
+        if let dir = FileManager.default.urls(for: .documentDirectory,
+                                              in: .userDomainMask).first {
+            let path = dir.appendingPathComponent("Test.png", conformingTo: .png).path()
+            print(path)
+            DriveManager.shared.upload(folderName: "/",
+                                       filePath: path,
+                                       mimeType: "image/png") { result in
                 switch result {
                 case .success(let identifier):
                     let config = Alert.AlertConfig.confirm(title: "Upload Success",
@@ -76,7 +82,7 @@ class GoogleDriveViewController: BaseViewController {
                     Alert.showAlertWith(vc: self, config: config)
                 case .failure(let error):
                     let config = Alert.AlertConfig.confirm(title: "Error",
-                                                           message: error.localizedDescription,
+                                                           message: "\(error)",
                                                            confirmTitle: "Confirm",
                                                            confirm: nil)
                     Alert.showAlertWith(vc: self, config: config)
